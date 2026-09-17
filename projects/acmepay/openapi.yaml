@@ -1,0 +1,170 @@
+openapi: 3.0.3
+
+info:
+  title: AcmePay API
+  description: |
+    API documentation for the fictional AcmePay cloud payments platform.
+
+    This OpenAPI specification is part of a technical writing portfolio
+    demonstrating API documentation, developer experience, and OpenAPI skills.
+  version: 1.0.0
+
+servers:
+  - url: https://api.acmepay.example/v1
+    description: Fictional AcmePay API server
+
+security:
+  - bearerAuth: []
+
+paths:
+
+  /account:
+    get:
+      summary: Retrieve account information
+      description: Returns information about the authenticated account.
+      operationId: getAccount
+      responses:
+        '200':
+          description: Account information retrieved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Account'
+        '401':
+          description: Authentication failed.
+
+  /payments:
+    post:
+      summary: Create a payment
+      description: Creates a new payment request.
+      operationId: createPayment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreatePaymentRequest'
+            example:
+              amount: 5000
+              currency: NGN
+              description: Order payment
+              reference: ORDER-10001
+      responses:
+        '201':
+          description: Payment created successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Payment'
+        '400':
+          description: Invalid request.
+        '401':
+          description: Authentication failed.
+        '409':
+          description: Payment reference already exists.
+        '429':
+          description: Rate limit exceeded.
+
+  /payments/{payment_id}:
+    get:
+      summary: Retrieve a payment
+      description: Returns information about a specific payment.
+      operationId: getPayment
+      parameters:
+        - name: payment_id
+          in: path
+          required: true
+          description: Unique identifier of the payment.
+          schema:
+            type: string
+          example: pay_123456
+      responses:
+        '200':
+          description: Payment retrieved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Payment'
+        '401':
+          description: Authentication failed.
+        '404':
+          description: Payment not found.
+
+components:
+
+  securitySchemes:
+
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: API_KEY
+
+  schemas:
+
+    Account:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique account identifier.
+          example: acct_12345
+        name:
+          type: string
+          description: Name of the account.
+          example: Example Business
+        status:
+          type: string
+          description: Current account status.
+          example: active
+
+    CreatePaymentRequest:
+      type: object
+      required:
+        - amount
+        - currency
+      properties:
+        amount:
+          type: integer
+          description: Payment amount in the smallest currency unit.
+          example: 5000
+        currency:
+          type: string
+          description: Three-letter ISO 4217 currency code.
+          example: NGN
+        description:
+          type: string
+          description: Description of the payment.
+          example: Order payment
+        reference:
+          type: string
+          description: Unique payment reference supplied by the merchant.
+          example: ORDER-10001
+
+    Payment:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique payment identifier.
+          example: pay_123456
+        amount:
+          type: integer
+          description: Payment amount in the smallest currency unit.
+          example: 5000
+        currency:
+          type: string
+          description: Currency used for the payment.
+          example: NGN
+        status:
+          type: string
+          description: Current payment status.
+          enum:
+            - pending
+            - successful
+            - failed
+            - cancelled
+          example: pending
+        reference:
+          type: string
+          description: Merchant-supplied payment reference.
+          example: ORDER-10001
