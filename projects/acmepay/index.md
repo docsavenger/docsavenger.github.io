@@ -20,6 +20,7 @@ Start here if you are integrating with AcmePay for the first time.
 - [Postman Collection](AcmePay%20API.postman_collection.json)
 - [Tutorial: Making Your First Payment](first-payment.md)
 - [Tutorial: Handling Payment Webhooks](handling-webhooks.md)
+- [API Error Troubleshooting](api-errors.md)
 
 ---
 
