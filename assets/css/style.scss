@@ -194,17 +194,25 @@ a:hover {
 
 .button {
   display: inline-block;
-  padding: 11px 18px;
+  padding: 12px 20px;
   border: 1px solid var(--border);
   border-radius: 8px;
   background: var(--surface);
   color: #f8fafc;
   font-weight: 700;
   text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .button:hover {
+  transform: translateY(-2px);
   background: var(--surface-light);
+  border-color: var(--accent);
+  color: #ffffff;
   text-decoration: none;
 }
 
