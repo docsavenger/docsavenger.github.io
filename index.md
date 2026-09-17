@@ -14,20 +14,21 @@ I turn complex technical concepts, products, and workflows into clear, practical
 
 ### AcmePay Developer Documentation
 
-A fictional technical documentation project for a cloud-native payments platform.
+A fictional cloud-native payments platform created to demonstrate practical technical writing skills across API documentation and developer experience.
 
-**Documentation includes:**
+The project includes:
 
 - API Getting Started Guide
-- Authentication
-- Payments API
-- Webhooks
-- API Errors
-- OpenAPI Documentation
-- Postman Collection
-- Developer Tutorials
+- Authentication documentation
+- Payments API reference
+- Webhook documentation
+- API error troubleshooting
+- OpenAPI specification
+- Swagger API reference
+- Postman collection
+- Developer tutorials
 
-[View Project](projects/acmepay/)
+[View the AcmePay documentation](projects/acmepay/index.md)
 
 ---
 
