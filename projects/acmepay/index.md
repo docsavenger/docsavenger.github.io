@@ -8,6 +8,37 @@ AcmePay is a fictional cloud-native payments platform created as a technical wri
 
 This documentation demonstrates how a technical writer can organize API documentation, developer guides, tutorials, and troubleshooting information for a modern payments platform.
 
+## What is AcmePay?
+
+AcmePay is a fictional cloud-native payments platform designed to demonstrate how developer documentation can support engineers integrating a payment API.
+
+This portfolio project covers the documentation a developer would typically need to understand, integrate, test, and troubleshoot an API.
+
+## Documentation Map
+
+### Start Here
+
+- [Getting Started](getting-started.md)
+- [API Authentication](authentication.md)
+
+### API Documentation
+
+- [Payments API](payments.md)
+- [Webhooks](webhooks.md)
+- [API Reference](api-reference.md)
+- [API Error Troubleshooting](api-errors.md)
+
+### Developer Tools
+
+- [OpenAPI Specification](openapi.yaml)
+- [Swagger API Reference](swagger.html)
+- [Postman Collection](AcmePay%20API.postman_collection.json)
+
+### Tutorials
+
+- [Making Your First Payment](first-payment.md)
+- [Handling Payment Webhooks](handling-webhooks.md)
+
 ---
 
 ## Getting Started
