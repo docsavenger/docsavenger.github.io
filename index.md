@@ -1,4 +1,3 @@
-# Jeremiah Ohigbochie
 
 [About](about.md) | [API Documentation](api-documentation.md) | [Developer Guides](projects/acmepay/index.md) | [Technical Articles](articles.md) | [Resume](resume.md) | [Portfolio GitHub](https://github.com/docsavenger)
 
@@ -6,8 +5,36 @@
 
 API Documentation | Developer Guides | Technical Content
 
-I am a writer and editor building practical technical documentation around APIs, SaaS products, developer workflows, and technical concepts. My portfolio demonstrates how I research, structure, write, and maintain documentation designed to help users understand products and complete tasks.
+<section class="hero">
 
+  <div class="hero-eyebrow">
+    TECHNICAL WRITER
+  </div>
+
+  <h1 class="hero-title">
+    I make complex technology easier to understand.
+  </h1>
+
+  <p class="hero-subtitle">
+    I create practical documentation for APIs, SaaS products,
+    developer workflows, and technical concepts.
+  </p>
+
+  <div class="hero-actions">
+    <a class="button" href="api-documentation.md">
+      Explore API Documentation
+    </a>
+
+    <a class="button" href="projects/acmepay/index.md">
+      View AcmePay Project
+    </a>
+
+    <a class="button" href="resume.md">
+      View Resume
+    </a>
+  </div>
+
+</section>
 ---
 
 ## Featured Project
