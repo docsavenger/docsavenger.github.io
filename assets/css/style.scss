@@ -153,10 +153,13 @@ a:hover {
     background 0.2s ease;
 }
 
-.site-links a:hover {
-  color: #f8fafc;
-  background: var(--surface-light);
-  text-decoration: none;
+.site-links a:last-child {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.site-links a:last-child:hover {
+  border-color: var(--accent);
 }
 
 /* Hero */
