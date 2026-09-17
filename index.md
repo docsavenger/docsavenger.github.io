@@ -89,4 +89,10 @@ For more about my background, technical writing focus, and approach, [read my Ab
 
 ## Contact
 
+I am open to technical writing opportunities involving API documentation, SaaS documentation, developer guides, technical tutorials, and product documentation.
+
+You can view my work and projects on GitHub.
+
+[View my GitHub profile](https://github.com/docsavenger)
+
 GitHub: [docsavenger](https://github.com/docsavenger)
