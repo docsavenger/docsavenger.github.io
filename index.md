@@ -32,13 +32,15 @@
 
 ## Featured Project
 
-**Portfolio project:** This is a self-directed project created to demonstrate documentation skills and technical understanding. It is not presented as commercial client work.
-
 ### AcmePay Developer Documentation
+
+**Cloud-native payments API documentation project**
 
 A fictional cloud-native payments platform created to demonstrate practical technical writing skills across API documentation and developer experience.
 
-The project includes:
+**Portfolio project:** This is a self-directed project created to demonstrate documentation skills and technical understanding. It is not presented as commercial client work.
+
+**Documentation includes:**
 
 - API Getting Started Guide
 - Authentication documentation
@@ -50,7 +52,7 @@ The project includes:
 - Postman collection
 - Developer tutorials
 
-[View the AcmePay documentation](projects/acmepay/index.md)
+[Explore the AcmePay documentation →](projects/acmepay/index.md)
 
 ---
 
