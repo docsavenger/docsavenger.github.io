@@ -1,6 +1,13 @@
+---
+layout: default
+title: AcmePay Developer Documentation
+---
+
 # AcmePay Developer Documentation
 
 ## Cloud Payments API
+
+A fictional cloud-native payments platform documentation project demonstrating API documentation, developer guides, OpenAPI, Swagger, Postman, webhooks, authentication, and troubleshooting.
 
 Welcome to the AcmePay Developer Documentation.
 
