@@ -31,6 +31,7 @@
 ---
 
 <div class="featured-project">
+  
 ## Featured Project
 
 **Portfolio project:** This is a self-directed project created to demonstrate documentation skills and technical understanding. It is not presented as commercial client work.
@@ -53,6 +54,7 @@ The project includes:
 
 [View the AcmePay documentation](projects/acmepay/index.md)
 </div>
+
 ---
 
 ## Technical Writing
