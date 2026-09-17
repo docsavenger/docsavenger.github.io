@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <section class="hero">
 
   <div class="hero-eyebrow">
