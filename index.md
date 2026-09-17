@@ -6,7 +6,7 @@
 
 API Documentation | Developer Guides | Technical Content
 
-I turn complex technical concepts, products, and workflows into clear, practical documentation that helps users understand and use technology.
+I am a writer and editor building practical technical documentation around APIs, SaaS products, developer workflows, and technical concepts. My portfolio demonstrates how I research, structure, write, and maintain documentation designed to help users understand products and complete tasks.
 
 ---
 
