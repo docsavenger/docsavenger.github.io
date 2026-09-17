@@ -17,6 +17,7 @@ Start here if you are integrating with AcmePay for the first time.
 - [Getting Started](getting-started.md)
 - [Authentication](authentication.md)
 - [Making Your First Payment](payments.md)
+- [Postman Collection](AcmePay%20API.postman_collection.json)
 
 ---
 
