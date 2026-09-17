@@ -34,22 +34,20 @@ The project includes:
 
 ## Technical Writing
 
-### API Documentation
+I focus on creating documentation that helps users understand products, complete tasks, and troubleshoot problems.
 
-Practical documentation covering REST APIs, requests, responses, authentication, errors, and API workflows.
+My documentation work includes:
 
-### Developer Guides
-
-Step-by-step guides designed to help developers understand and integrate with technical products.
-
-### SaaS Documentation
-
-User-focused documentation for cloud-based software products and workflows.
-
-### Technical Tutorials
-
-Clear, practical tutorials that explain technical concepts without unnecessary complexity.
-
+- API documentation
+- Developer guides
+- API reference documentation
+- Technical tutorials
+- Authentication and authorization guides
+- Webhook documentation
+- Error and troubleshooting documentation
+- SaaS product documentation
+- OpenAPI and Swagger documentation
+- Postman-based API workflows
 ---
 
 ## Tools & Technologies
