@@ -12,6 +12,8 @@ I turn complex technical concepts, products, and workflows into clear, practical
 
 ## Featured Project
 
+**Portfolio project:** This is a self-directed project created to demonstrate documentation skills and technical understanding. It is not presented as commercial client work.
+
 ### AcmePay Developer Documentation
 
 A fictional cloud-native payments platform created to demonstrate practical technical writing skills across API documentation and developer experience.
