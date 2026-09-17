@@ -83,9 +83,7 @@ An introduction to API keys, Bearer tokens, OAuth 2.0, authentication errors, an
 
 ## About Me
 
-I am a technical writer focused on making complex technology easier to understand.
-
-My approach combines strong writing and editing skills with practical knowledge of APIs, SaaS products, developer documentation, and modern documentation tools.
+For more about my background, technical writing focus, and approach, [read my About page](about.md).
 
 ---
 
