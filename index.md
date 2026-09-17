@@ -1,5 +1,7 @@
 # Jeremiah Ohigbochie
 
+[About](about.md) | [Developer Guides](projects/acmepay/index.md) | [Technical Articles](articles.md) | [GitHub](https://github.com/docsavenger)
+
 ## Technical Writer
 
 API Documentation | SaaS Documentation | Developer Guides
