@@ -1,6 +1,6 @@
 # Jeremiah Ohigbochie
 
-[About](about.md) | [API Documentation](api-documentation.md) | [Developer Guides](projects/acmepay/index.md) | [Technical Articles](articles.md) | [GitHub](https://github.com/docsavenger)
+[About](about.md) | [API Documentation](api-documentation.md) | [Developer Guides](projects/acmepay/index.md) | [Technical Articles](articles.md) | [Portfolio GitHub](https://github.com/docsavenger)
 
 ## Technical Writer
 
