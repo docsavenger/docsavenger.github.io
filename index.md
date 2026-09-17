@@ -61,6 +61,27 @@ Clear, practical tutorials that explain technical concepts without unnecessary c
 - AI-assisted documentation workflows
 
 ---
+
+## Developer Guides
+
+### Making Your First Payment
+
+A step-by-step guide to creating a payment, understanding the response, and handling common API errors.
+
+[Read the guide](projects/acmepay/first-payment.md)
+
+### Handling Payment Webhooks
+
+A practical guide to receiving, validating, processing, and troubleshooting payment webhook events.
+
+[Read the guide](projects/acmepay/handling-webhooks.md)
+
+### Troubleshooting API Errors
+
+A practical guide to understanding common HTTP errors and troubleshooting API requests.
+
+[Read the guide](projects/acmepay/api-errors.md)
+
 ## Technical Articles
 
 ### API Documentation From Scratch
