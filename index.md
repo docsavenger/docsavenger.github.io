@@ -18,17 +18,17 @@ layout: default
   </p>
 
   <div class="hero-actions">
-    <a class="button" href="api-documentation.md">
+    <a class="button" href="api-documentation.html">
       Explore API Documentation
     </a>
 
-    <a class="button" href="projects/acmepay/index.md">
-      View AcmePay Project
-    </a>
+  <a class="button" href="projects/acmepay/">
+    View AcmePay Project
+  </a>
 
-    <a class="button" href="resume.md">
-      View Resume
-    </a>
+  <a class="button" href="resume.html">
+    View Resume
+  </a>
   </div>
 
 </section>
