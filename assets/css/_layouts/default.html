@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    {% if page.title %}
+      {{ page.title }} | Jeremiah Ohigbochie
+    {% else %}
+      Jeremiah Ohigbochie | Technical Writer
+    {% endif %}
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/style.css' | relative_url }}"
+  >
+</head>
+
+<body>
+
+  <nav class="site-nav">
+    <div class="site-nav-inner">
+
+      <a class="site-brand" href="{{ '/' | relative_url }}">
+        Jeremiah Ohigbochie
+      </a>
+
+      <div class="site-links">
+        <a href="{{ '/about.html' | relative_url }}">About</a>
+        <a href="{{ '/api-documentation.html' | relative_url }}">
+          API Documentation
+        </a>
+        <a href="{{ '/projects/acmepay/' | relative_url }}">
+          Developer Guides
+        </a>
+        <a href="{{ '/articles.html' | relative_url }}">
+          Technical Articles
+        </a>
+        <a href="{{ '/resume.html' | relative_url }}">Resume</a>
+        <a href="https://github.com/docsavenger">
+          GitHub
+        </a>
+      </div>
+
+    </div>
+  </nav>
+
+  <main class="wrapper">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>
+        © {{ 'now' | date: "%Y" }} Jeremiah Ohigbochie.
+        Technical Writing Portfolio.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
