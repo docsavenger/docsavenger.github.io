@@ -1,8 +1,23 @@
+---
+layout: default
+title: API Documentation
+---
+
 # API Documentation
 
-This section showcases my approach to documenting REST APIs for developers.
+## Practical API documentation for developers
 
-The examples are based on the fictional AcmePay cloud-native payments platform created as a self-directed portfolio project.
+A collection of API documentation, reference material, tutorials, and developer workflows built around a fictional cloud payments platform.
+
+<div class="page-intro">
+
+This section demonstrates how I structure API documentation to help developers understand an API, authenticate requests, send requests, handle responses, and troubleshoot problems.
+
+</div>
+
+---
+
+## Explore the Documentation
 
 ## API Documentation Coverage
 
