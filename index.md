@@ -61,7 +61,6 @@ Clear, practical tutorials that explain technical concepts without unnecessary c
 - AI-assisted documentation workflows
 
 ---
-
 ## Developer Guides
 
 ### Making Your First Payment
@@ -82,6 +81,7 @@ A practical guide to understanding common HTTP errors and troubleshooting API re
 
 [Read the guide](projects/acmepay/api-errors.md)
 
+---
 ## Technical Articles
 
 ### API Documentation From Scratch
@@ -102,6 +102,7 @@ An introduction to API keys, Bearer tokens, OAuth 2.0, authentication errors, an
 
 [Read the article](projects/acmepay/authentication.md)
 
+---
 ## About Me
 
 For more about my background, technical writing focus, and approach, [read my About page](about.md).
