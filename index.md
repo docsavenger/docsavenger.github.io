@@ -1,10 +1,6 @@
 
 [About](about.md) | [API Documentation](api-documentation.md) | [Developer Guides](projects/acmepay/index.md) | [Technical Articles](articles.md) | [Resume](resume.md) | [Portfolio GitHub](https://github.com/docsavenger)
 
-## Technical Writer
-
-API Documentation | Developer Guides | Technical Content
-
 <section class="hero">
 
   <div class="hero-eyebrow">
