@@ -4,7 +4,7 @@
 
 ## Technical Writer
 
-API Documentation | SaaS Documentation | Developer Guides
+API Documentation | Developer Guides | Technical Content
 
 I turn complex technical concepts, products, and workflows into clear, practical documentation that helps users understand and use technology.
 
