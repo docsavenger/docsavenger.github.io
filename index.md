@@ -53,14 +53,16 @@ My documentation work includes:
 
 ## Tools & Technologies
 
-- Markdown
-- GitHub
-- Git
-- OpenAPI
-- Swagger
-- Postman
-- Mermaid
-- AI-assisted documentation workflows
+The tools I use for technical documentation and developer-focused content include:
+
+- **Markdown** for structured technical documentation
+- **GitHub** for version control and documentation publishing
+- **Git** for tracking documentation changes
+- **OpenAPI** for defining and documenting REST APIs
+- **Swagger UI** for interactive API references
+- **Postman** for API testing and documentation workflows
+- **Mermaid** for technical diagrams and workflows
+- **AI-assisted documentation workflows** for research, drafting, review, and documentation maintenance
 
 ---
 ## Developer Guides
